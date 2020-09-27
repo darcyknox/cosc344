@@ -1,0 +1,3 @@
+SELECT FNAME, LNAME, DNAME
+FROM employee, department
+WHERE SSN = MGRSSN;

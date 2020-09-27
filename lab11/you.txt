@@ -1,0 +1,33 @@
+1. GRANT SELECT ON emp TO dknox1;
+
+2. GRANT SELECT, UPDATE(dname) ON dept TO dknox1;
+
+3.
+(REVOKE ALL PRIVILEGES ON emp, dept FROM dknox1;)
+
+REVOKE SELECT ON emp FROM dknox1;
+REVOKE SELECT ON dept FROM dknox1;
+REVOKE UPDATE ON dept FROM dknox1;
+
+4. CREATE ROLE admin;
+GRANT SELECT ON emp, dept TO ADMIN;
+GRANT admin TO dknox1;
+
+5.
+CREATE VIEW EmpDetails
+AS
+SELECT fname, lname, dname
+FROM emp, dept
+WHERE emp.dno = dept.dnumber;
+
+GRANT SELECT ON EmpDetails TO dknox1;
+
+6.
+CREATE VIEW EmpSals
+AS
+SELECT fname, lname, salary
+FROM emp
+WHERE salary <= 50000;
+
+GRANT SELECT ON EmpSals TO dknox1;
+

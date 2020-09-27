@@ -1,0 +1,9 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Mon Sep 28 11:48:10 2020
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+SQL*Loader-500: Unable to open file (lab2a.ctl)
+SQL*Loader-553: file not found
+SQL*Loader-509: System error: No such file or directory

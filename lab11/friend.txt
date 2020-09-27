@@ -1,0 +1,14 @@
+1. SELECT * FROM dknox.emp;
+
+2. UPDATE dknox.dept SET dname = 'Admin2' WHERE dnumber = 1;
+UPDATE dknox.dept SET dnumber = 2 WHERE dname = 'Admin2';
+
+3. SELECT * FROM dknox.emp;
+
+4. SELECT * FROM dknox.emp;
+SELECT * FROM dknox.dept;
+
+5. SELECT * FROM dknox.EmpDetails;
+
+6. SELECT * FROM dknox.EmpSals;
+

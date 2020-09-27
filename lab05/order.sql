@@ -58,4 +58,7 @@ INSERT INTO orders VALUES
    (3011,9891.88,TO_DATE('06-10-1990','DD-MM-YYYY'),2006,1001);
 
 COMMIT;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a60a963fe5e90aa3736a06b3ce9f9d1a095f120

@@ -32,7 +32,11 @@ CREATE TABLE employee
    salary   NUMBER(6),
    superssn CHAR(9)
       CONSTRAINT superssn_cnst REFERENCES employee(ssn) DISABLE,
+<<<<<<< HEAD
    dno      INT          NOT NULL 
+=======
+   dno      INT          NOT NULL
+>>>>>>> 7a60a963fe5e90aa3736a06b3ce9f9d1a095f120
       CONSTRAINT dno_cnst REFERENCES department(dnumber) DISABLE);
 
 ALTER TABLE employee ENABLE CONSTRAINT dno_cnst;

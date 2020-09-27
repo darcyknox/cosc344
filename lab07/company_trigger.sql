@@ -122,4 +122,7 @@ END;
 SELECT * FROM d1;
 
 COMMIT;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a60a963fe5e90aa3736a06b3ce9f9d1a095f120

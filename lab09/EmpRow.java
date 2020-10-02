@@ -16,7 +16,7 @@ public class EmpRow implements Comparable<EmpRow>{
     return salary;
   }
 
-  public int compareSalary(EmpRow employee) {
+  public int compareTo(EmpRow employee) {
     if (salary > employee.salary) {
       return 1;
     } else if (salary < employee.salary) {

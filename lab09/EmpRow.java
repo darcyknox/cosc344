@@ -27,6 +27,6 @@ public class EmpRow implements Comparable<EmpRow>{
   }
 
   public String toString() {
-    return "fname: " + fname + " lname: " + lname + " salary: " + salary;
+    return "Name: " + fname + " " + lname + ", Salary: " + salary;
   }
 }

@@ -56,6 +56,6 @@ public class EmployeeData implements Comparable<EmployeeData> {
    * @return a String representation, giving employee name and salary
    */
    public String toString() {
-     return "fname: " + firstName + " lname: " + lastName + " salary: " + salary;
+     return "fname: " + firstName + ", lname: " + lastName + ", salary: " + salary;
    }
 } // class EmployeeData
